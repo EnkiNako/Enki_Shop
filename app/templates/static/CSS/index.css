@@ -1,0 +1,68 @@
+.navbar {
+  background: #563d7c !important;
+  font-weight: bold;
+  color: #cbbde2;
+}
+
+.jumbotron {
+  position: relative;
+  background: none;
+  color: azure;
+  box-sizing: border-box;
+  padding: 0px;
+  height: 400px;
+}
+
+.jumbotron img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+}
+
+.jumbotron-content {
+  padding: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card-img-top {
+  height: 250px;
+  width: auto;
+}
+
+.card .btn {
+  background-color: #563d7c;
+  font-weight: bold;
+  color: #cbbde2;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #563d7c;
+  font-weight: bold;
+  color: #cbbde2;
+  margin-top: 100px;
+}
+
+div[data-hidden] {
+  display: none;
+}
